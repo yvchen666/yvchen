@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        id="@+id/topic"
+        icon="@drawable/shouye"
+        title="Favorites"
+        barColorWhenSelected="#018ED3" />
+    <tab
+        id="@+id/bbs"
+        icon="@drawable/duihua"
+        title="Nearby"
+        barColorWhenSelected="#D3BF35" />
+    <tab
+        id="@+id/personal"
+        icon="@drawable/wode"
+        title="Friends"
+        barColorWhenSelected="#5D4037" />
+</tabs>

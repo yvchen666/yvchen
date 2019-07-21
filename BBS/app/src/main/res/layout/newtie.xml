@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="发表新话题"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/ftdialogTextView1"/>
+
+    <View
+        android:background="?android:attr/dividerVertical"
+        android:layout_height="0.5dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="填写标题"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:singleLine="true"
+        android:id="@+id/ftdialogEditText1"
+        android:layout_marginTop="18dp"
+        android:background="#61616161"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="填写内容"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/ftdialogEditText2"
+        android:background="#61616161"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:paddingLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="取消"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/ftdialogButton1"
+            android:textColor="#FFFFFF"
+            android:background="#61616161"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="提交"
+            android:layout_weight="1.0"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/ftdialogButton2"
+            android:background="#61616161"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">宁中BBS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">宁中BBS</string>
+    <string name="action_settings">发帖</string>
+    <string name="nav_header_subtitle">power by yvcheng</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_write">快速发帖</string>
+
+    <string name="menu_home">个人信息</string>
+    <string name="menu_gallery">我的贴子</string>
+    <string name="menu_slideshow">我的收藏</string>
+    <string name="menu_tools">退出登录</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">关于</string>
+
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录/注册</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">无效的用户名</string>
+    <string name="invalid_password">密码必须大于5个字符</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="register_button_get_pass">获取验证码</string>
+    <string name="login_success">登录成功</string>
+    <string name="login">登录</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="go">立即登录</string>
+    <string name="repeat_password">确认密码</string>
+    <string name="next">下一步</string>
+    <string name="register">注册</string>
+</resources>
